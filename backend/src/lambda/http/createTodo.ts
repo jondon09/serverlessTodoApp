@@ -6,7 +6,7 @@ import { CreateTodoRequest } from '../../requests/CreateTodoRequest'
 // import { getUserId } from '../utils';
 // import { createTodo } from '../../businessLogic/todos'
 
-import { createTodo } from '../../helpers/todosAcess'
+import { createTodo } from '../../dataLayer/todosAcess'
 import { todoBuilder } from '../../helpers/todos'
 
 export const handler = middy(

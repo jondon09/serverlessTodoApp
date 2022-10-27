@@ -4,7 +4,7 @@ import { APIGatewayProxyEvent, APIGatewayProxyResult } from 'aws-lambda'
 import * as middy from 'middy'
 import { cors, httpErrorHandler } from 'middy/middlewares'
 //import { deleteToDo } from '../../helpers/todos'
-import { deleteTodo } from '../../helpers/todosAcess'
+import { deleteTodo } from '../../dataLayer/todosAcess'
 import { getUserId } from '../utils'
 
 // import { deleteTodo } from '../../businessLogic/todos'
